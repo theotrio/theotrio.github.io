@@ -16,9 +16,26 @@
         width: 100%;
     }
 
+    .sidebar {
+        position: static;
+    }
+
     .nav-links {
-        flex-direction: column;
-        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        white-space: nowrap;
+
+        padding-bottom: 0.5rem;
+
+        scrollbar-width: none;      /* Firefox */
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;              /* Chrome/Safari */
     }
 
     .content h1 {
