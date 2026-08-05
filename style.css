@@ -288,13 +288,13 @@ section li {
 
 .timeline-item {
 
-    display: flex;
+    display: grid;
 
-    gap: 2rem;
+    grid-template-columns: 90px 40px 1fr;
 
-    position: relative;
+    align-items: start;
 
-    margin-bottom: 3rem;
+    column-gap: 1rem;
 }
 
 .timeline-date {
