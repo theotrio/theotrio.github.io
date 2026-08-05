@@ -249,33 +249,180 @@ section li {
 
 /* ---------- About Page ---------- */
 
-.about-section {
+/* ==========================================================
+   ABOUT PAGE
+   ========================================================== */
 
-    margin-bottom: 3rem;
+.page-intro {
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    margin-bottom: 4rem;
 }
 
-.cv-item {
+.intro-text {
+
+    flex: 1;
+}
+
+.about-photo {
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    flex-shrink: 0;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.timeline {
+
+    margin: 4rem 0;
+}
+
+.timeline-item {
 
     display: flex;
 
     gap: 2rem;
 
-    margin-bottom: 1rem;
+    position: relative;
+
+    margin-bottom: 3rem;
 }
 
-.cv-year,
-.cv-label {
+.timeline-date {
 
-    width: 160px;
-
-    flex-shrink: 0;
+    width: 100px;
 
     font-weight: bold;
+
+    text-align: right;
 }
 
-.cv-description {
+.timeline-content {
 
-    flex: 1;
+    position: relative;
+
+    padding-left: 2rem;
+}
+
+.timeline-content::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: -11px;
+
+    top: .4rem;
+
+    width: 16px;
+
+    height: 16px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border: 4px solid var(--accent);
+}
+
+.timeline-content::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: -1px;          /* Align with the centre of the circle */
+
+    top: 28px;           /* Start just below the circle */
+
+    width: 3px;
+
+    height: calc(100% + 2rem);
+
+    background: var(--accent);
+}
+
+.timeline-item:last-child .timeline-content::after {
+
+    display: none;
+}
+
+/* ==========================================================
+   QUOTATIONS
+   ========================================================== */
+
+blockquote {
+
+    margin: 1.5rem auto;
+
+    padding: 1rem 1.5rem;
+
+    border-left: 4px solid var(--accent);
+
+    background: #f5f7fa;
+
+    font-style: italic;
+
+    color: #444;
+
+    max-width: 850px;
+}
+
+blockquote strong {
+
+    display: block;
+
+    margin-top: .75rem;
+
+    text-align: right;
+
+    font-style: normal;
+
+    color: var(--light-text);
+}
+
+/* ==========================================================
+   PERSONAL NOTE
+   ========================================================== */
+
+.personal-note {
+
+    margin-top: 5rem;
+
+    padding: 2rem;
+
+    background: #fcfcfc;
+
+    border-top: 2px solid var(--border);
+
+    border-bottom: 2px solid var(--border);
+
+    text-align: center;
+}
+
+.personal-note h2 {
+
+    border: none;
+
+    margin-bottom: 1.5rem;
+}
+
+.personal-note p {
+
+    max-width: 800px;
+
+    margin: 0 auto 2rem auto;
+
+    font-size: 1.05rem;
 }
 
 /* ---------- Footer ---------- */
@@ -423,5 +570,30 @@ footer {
     .cv-label {
 
         width: auto;
+    }
+
+        .page-intro {
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+        gap: 2rem;
+    }
+
+    .about-photo {
+
+        width: 170px;
+        height: 170px;
+    }
+
+    blockquote {
+
+        padding: 1rem;
+    }
+
+    .personal-note {
+
+        padding: 1.5rem 1rem;
     }
 }
