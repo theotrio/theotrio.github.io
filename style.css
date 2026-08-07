@@ -102,6 +102,47 @@ header {
     color: var(--accent);
 }
 
+.language-switch {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: .4rem;
+
+    font-size: .95rem;
+
+    font-weight: 600;
+}
+
+.language-switch a {
+
+    text-decoration: none;
+
+    color: var(--light-text);
+
+    transition: color .2s;
+}
+
+.language-switch a:hover {
+
+    color: var(--accent);
+}
+
+.language-switch a.active {
+
+    color: var(--accent);
+
+    font-weight: 700;
+
+    text-decoration: underline;
+}
+
+.language-switch span {
+
+    color: #999;
+}
+
 /* ---------- Main ---------- */
 
 main {
@@ -252,34 +293,6 @@ section li {
 /* ==========================================================
    ABOUT PAGE
    ========================================================== */
-
-.page-intro {
-
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-
-    margin-bottom: 4rem;
-}
-
-.intro-text {
-
-    flex: 1;
-}
-
-.about-photo {
-
-    width: 220px;
-    height: 220px;
-
-    border-radius: 50%;
-
-    object-fit: cover;
-
-    flex-shrink: 0;
-
-    box-shadow: 0 4px 12px rgba(0,0,0,.12);
-}
 
 .timeline {
 

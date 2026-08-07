@@ -27,19 +27,29 @@
 
         <ul class="nav-links">
 
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" data-lang="nav.home"></a></li>
 
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" data-lang="nav.about"></a></li>
 
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="publications.html" data-lang="nav.publications"></a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" data-lang="nav.projects"></a></li>
 
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" data-lang="nav.teaching"></a></li>
 
-            <li><a href="DrTriommatis.pdf" target="_blank">CV</a></li>
+            <li><a href="DrTriommatis.pdf" target="_blank" data-lang="nav.cv"></a></li>
 
         </ul>
+
+        <div class="language-switch">
+
+            <a href="#" id="lang-en">English</a>
+
+            <span>|</span>
+
+            <a href="#" id="lang-el">Ελληνικά</a>
+
+        </div>
 
     </nav>
 
@@ -50,12 +60,12 @@
 
 <section>
 
-    <h3> PhD Thesis: </h3> 
+    <h3 data-lang="publications.thesis_heading"></h3> 
     <a href="https://livrepository.liverpool.ac.uk/3184893/" target="_blank">
         <em>A Study of a Geometric Framework in Passive Localisation</em> 
     </a>
 
-    <h1>Journal Publications</h1>
+    <h1 data-lang="publications.journal_heading"></h1>
     <ol>
         <li>Igor Potapov, Jason F. Ralph, and Theofilos Triommatis. “The Maximum Cover with Rotating Field of View”. <em>J. Math. Imaging Vis.</em> 67 (3) (2025)  p. 33.</li>
         <li>Foivos Fioravantes, Nikolaos Melissinos, and Theofilos Triommatis. “Parameterised distance to local irregularity”. <em>Discret. Math. Theor. Comput. Sci.</em> 27 (3) (2025)</li>
@@ -63,7 +73,7 @@
         <li>Nikolaos Melissinos, Aris Pagourtzis, and Theofilos Triommatis. “Approximation schemes for subset-sums ratio problems”. <em>Theor. Comput. Sci.</em> 931 (2022)  pp. 17--30.</li>
     </ol>
 
-    <h1>Conference Publications</h1>
+    <h1 data-lang="publications.conference_heading"></h1>
     <ol>
         <li>Theofilos Triommatis, Felor Beikzadeh Abbasi, and Ioannis Papamichail. “Scheduling and Routing in a Marsupial Delivery Environment”. In: <em> 10th Transport Research Arena, (TRA 2026), 18-21 May, Budapest, Hungary </em>. 2026 </li>
         <li>Theofilos Triommatis, Felor Beikzadeh Abbasi, and Ioannis Papamichail. “A Mixed-Integer Linear Programming Model for Multimodal Middle-Mile Planning”. In: <em> 10th Transport Research Arena, (TRA 2026), 18-21 May, Budapest, Hungary </em>. 2026,</li>
@@ -74,7 +84,7 @@
         <li>Theofilos Triommatis and Aris Pagourtzis. “Approximate #Knapsack Computations to Count Semi-fair Allocations”. In: <em> Theory and Applications of Models of Computation, 16th International Conference, (TAMC) 2020, Changsha, China, October 18-20, 2020, Proceedings </em>. Ed. by Jianer Chen, Qilong Feng, and Jinhui Xu. Lecture Notes in Computer Science. Springer, 2020,  pp. 239--250.</li>
     </ol>
 
-    <h1> Project Deliverables & Technical Reports </h1>
+    <h1 data-lang="publications.deliverable_heading"></h1>
     <h3> TRACE Horizon Project </h3>
     <ul>
         <li> D2.1 TRACE Technical Requirements (A) </li>
@@ -136,6 +146,9 @@
     </div>
 
 </footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 
 </body>
 

@@ -27,19 +27,29 @@
 
         <ul class="nav-links">
 
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" data-lang="nav.home"></a></li>
 
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" data-lang="nav.about"></a></li>
 
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="publications.html" data-lang="nav.publications"></a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" data-lang="nav.projects"></a></li>
 
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" data-lang="nav.teaching"></a></li>
 
-            <li><a href="DrTriommatis.pdf" target="_blank">CV</a></li>
+            <li><a href="DrTriommatis.pdf" target="_blank" data-lang="nav.cv"></a></li>
 
         </ul>
+
+        <div class="language-switch">
+
+            <a href="#" id="lang-en">English</a>
+
+            <span>|</span>
+
+            <a href="#" id="lang-el">Ελληνικά</a>
+
+        </div>
 
     </nav>
 
@@ -51,24 +61,23 @@
 <section class="publications">
 
 <h2>2023 - 2026 TRACE </h2>
-Postdoctoral Researcher at the 
-<a href= "http://www.dssl.tuc.gr/" target="_blank"> Dynamic Systems and Simulations Lab </a>  of 
-<a href= "https://www.tuc.gr/en/home" target="_blank"> Technical University of Crete </a> with the 
-EU innovation action project 
-<a href= "https://trace-horizon.eu/" target="_blank"> TRACE </a>
-, 
-(Grant Agreement
-No 101104278) part of Horizon.
-Task Leader in Platform Development Modules. With TUC I had the role of a
-leader of a team of technical partners in the project, responsible for the development and
-integration of components for Optimal Scheduling and Routing of Vehicles
+<span data-lang="projects.trace.text1"></span>
+<a href= "http://www.dssl.tuc.gr/" target="_blank" data-lang="projects.trace.lab"></a> 
+<span data-lang="projects.trace.text2"> </span>
+<a href= "https://www.tuc.gr/en/home" target="_blank" data-lang="projects.trace.inst"></a>, 
+<span data-lang="projects.trace.text3"></span>
+<a href= "https://trace-horizon.eu/" target="_blank"> TRACE – Integration and Harmonization of Logistics Operations </a>
+<span data-lang="projects.trace.text4"></span>
+
+
+
 
 <h2>2019-2023 Exploration and Exploitation with Passive RF Sensors</h2>
 
-PhD level researcher in the project “Exploration and Exploitation with Passive RF Sensors”
-at the 
-<a href= "https://www.liverpool.ac.uk/doctoral-training/distributed-algorithms/" target="_blank"> CDT in Distributed Algorithms </a>,
-University of Liverpool (EP/S023445/1 EPSRC) with MBDA as industrial partner.
+<span data-lang="projects.rf_sensors.text1"></span>
+<a href="https://www.liverpool.ac.uk/doctoral-training/distributed-algorithms/" 
+target="_blank">Centre for Doctoral Training (CDT) in Distributed Algorithms</a>. 
+<span data-lang="projects.rf_sensors.text2"></span>
 
 
 </section>
@@ -113,6 +122,9 @@ University of Liverpool (EP/S023445/1 EPSRC) with MBDA as industrial partner.
     </div>
 
 </footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 
 </body>
 

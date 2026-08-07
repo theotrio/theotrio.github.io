@@ -27,19 +27,29 @@
 
         <ul class="nav-links">
 
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" data-lang="nav.home"></a></li>
 
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" data-lang="nav.about"></a></li>
 
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="publications.html" data-lang="nav.publications"></a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" data-lang="nav.projects"></a></li>
 
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" data-lang="nav.teaching"></a></li>
 
-            <li><a href="DrTriommatis.pdf" target="_blank">CV</a></li>
+            <li><a href="DrTriommatis.pdf" target="_blank" data-lang="nav.cv"></a></li>
 
         </ul>
+
+        <div class="language-switch">
+
+            <a href="#" id="lang-en">English</a>
+
+            <span>|</span>
+
+            <a href="#" id="lang-el">Ελληνικά</a>
+
+        </div>
 
     </nav>
 
@@ -51,7 +61,7 @@
 
 <section class="timeline">
 
-    <h1>Academic Journey</h1>
+    <h1 data-lang="about.timeline.title"></h1>
 
     <div class="timeline-item">
 
@@ -65,13 +75,9 @@
 
         <div class="timeline-content">
 
-            <h3>High School Graduation</h3>
+            <h3 data-lang="about.timeline.hs_title"></h3>
 
-            <p>
-
-                High School of Kremasti,
-                Rhodes, Greece.
-
+            <p data-lang="about.timeline.hs_desc">
             </p>
 
         </div>
@@ -90,16 +96,10 @@
 
         <div class="timeline-content">
 
-            <h3>
-
-                National Technical University of Athens
-
+            <h3 data-lang="about.timeline.ntua_title">
             </h3>
 
-            <p>
-
-                Diploma in Applied Mathematical and Physical Sciences
-
+            <p data-lang="about.timeline.ntua_desc">
             </p>
 
         </div>
@@ -118,17 +118,9 @@
 
         <div class="timeline-content">
 
-            <h3>
+            <h3 data-lang="about.timeline.liv_title"></h3>
 
-                University of Liverpool
-
-            </h3>
-
-            <p>
-
-                PhD in Computer Science in School of Electrical Engineering Electronics and Computer Science
-
-            </p>
+            <p data-lang="about.timeline.liv_desc"></p>
 
         </div>
 
@@ -146,17 +138,9 @@
 
         <div class="timeline-content">
 
-            <h3>
+            <h3 data-lang="about.timeline.tuc_title"></h3>
 
-                Technical University of Crete
-
-            </h3>
-
-            <p>
-
-                Postdoctoral Researcher in School of Production Engineering and Management
-
-            </p>
+            <p data-lang="about.timeline.tuc_desc"></p>
 
         </div>
 
@@ -166,30 +150,13 @@
 
 <section>
 
-    <h2>Why Mathematics?</h2>
+    <h2 data-lang="about.mathematics.title"></h2>
 
-    <p>
+    <p data-lang="about.mathematics.p1"> </p>
 
-        Mathematics attracted me because of its creative nature.
-        Solving a problem begins by creating an appropriate framework in which
-        the problem can be precisely described. Once the right formulation has
-        been found, discovering a solution becomes an engaging logical
-        puzzle. In many cases, finding a proper problem definition is already
-        halfway to solving it.
+    <p data-lang="about.mathematics.p2"></p>
 
-    </p>
-
-    <p>
-
-        Bertrand Russell beautifully expressed this idea:
-
-    </p>
-
-    <blockquote>
-
-        "The pure mathematician, like the musician, is a free creator of his
-        world of ordered beauty."
-
+    <blockquote  data-lang="about.mathematics.quote">
     </blockquote>
 
 </section>
@@ -197,108 +164,49 @@
 
 <section>
 
-    <h2>Why Algorithms?</h2>
+    <h2 data-lang="about.algorithms.title"></h2>
 
-    <p>
+    <p data-lang="about.algorithms.p1"></p>
 
-        What fascinates me about algorithms is their generality.
-        While a mathematical formula may solve one specific problem,
-        an algorithm provides a systematic method capable of solving an
-        entire family of problem instances.
-
-    </p>
-
-    <p>
-
-        Algorithms also represent the language through which we teach
-        machines to solve problems. Designing an algorithm means describing
-        a sequence of logical decisions that transforms mathematical ideas
-        into practical computation.
-
-    </p>
+    <p data-lang="about.algorithms.p2"></p>
 
 </section>
 
 
 <section>
 
-    <h2>Decision Making and Optimization</h2>
+    <h2 data-lang="about.decision.title"></h2>
 
-    <p>
+    <p data-lang="about.decision.p1"></p>
 
-        Many optimization problems can be viewed as a single decision: given a model, a set
-        of constraints, and an objective function, the goal is to determine the best possible
-        solution. Advances in mathematical optimization and mixed-integer linear
-        programming (MILP) have made it possible to solve many such problems efficiently
-        and with strong theoretical guarantees.
+    <p data-lang="about.decision.p2"></p>
 
-    </p>
-
-    <p>
-
-        However, many real-world systems are inherently dynamic. Rather than making one
-        decision in isolation, they require a sequence of decisions over time, where each
-        choice changes the state of the system and influences the decisions that follow.
-        Examples include autonomous vehicles, logistics operations, and multi-agent
-        systems, where today's decision shapes tomorrow's opportunities.
-
-    </p>
-
-    <p>
-
-        My research is motivated by understanding this distinction. I am interested in
-        identifying when a dynamic decision-making process can be formulated as a single
-        optimization problem and when it fundamentally requires reasoning about the
-        evolution of the system over time. Answering this question involves developing new
-        algorithmic frameworks, studying their computational complexity, and designing
-        efficient methods that produce high-quality decisions while accounting for their
-        long-term consequences.
-    </p>
+    <p data-lang="about.decision.p3"></p>
 
 </section>
 
 
 <section>
 
-    <h2>Research Philosophy</h2>
+    <h2 data-lang="about.philosophy.title"></h2>
 
-    <p>
+    <p data-lang="about.philosophy.p1"></p>
 
-        I enjoy working where theory meets applications.
-        Theoretical computer science provides elegant mathematical tools,
-        while practical applications continually introduce new questions
-        that inspire theoretical advances.
-
-    </p>
-
-    <p>
-
-        I particularly value collaboration across disciplines.
-        Many of today's challenging optimization problems require expertise
-        from mathematics, computer science, engineering, and operations
-        research, and I believe that meaningful progress often comes from
-        combining different perspectives.
-
-    </p>
+    <p data-lang="about.philosophy.p2"></p>
 
 </section>
 
 
 <section class="about-section">
 
-    <h2>Awards &amp; Achievements</h2>
+    <h2 data-lang="about.awards.title"></h2>
 
     <div class="cv-item">
 
         <span class="cv-year">2019–2023</span>
 
-        <span class="cv-description">
-
-            Fully funded doctoral scholarship at the Centre for Doctoral
-            Training in Distributed Algorithms,
-            University of Liverpool.
-
-        </span>
+        <span class="cv-description"
+            data-lang="about.awards.scholarship"></span>
 
     </div>
 
@@ -306,13 +214,8 @@
 
         <span class="cv-year">2022</span>
 
-        <span class="cv-description">
-
-            Awarded funding to present research at the
-            38<sup>th</sup> British Colloquium for Theoretical
-            Computer Science.
-
-        </span>
+        <span class="cv-description"
+            data-lang="about.awards.bctcs"></span>
 
     </div>
 
@@ -320,13 +223,8 @@
 
         <span class="cv-year">2020</span>
 
-        <span class="cv-description">
-
-            Second place at the Computing Insight UK Student Cluster
-            Challenge (CIUK), representing the University of Liverpool
-            in a national High-Performance Computing competition.
-
-        </span>
+        <span class="cv-description"
+            data-lang="about.awards.ciuk"></span>
 
     </div>
 
@@ -335,11 +233,12 @@
 
 <section class="about-section">
 
-    <h2>Technical Skills</h2>
+    <h2 data-lang="about.skills.title"></h2>
 
     <div class="cv-item">
 
-        <span class="cv-label">Programming</span>
+        <span class="cv-label"
+          data-lang="about.skills.programming"></span>
 
         <span class="cv-description">
 
@@ -351,7 +250,8 @@
 
     <div class="cv-item">
 
-        <span class="cv-label">Scientific Computing</span>
+        <span class="cv-label"
+          data-lang="about.skills.scientific"></span>
 
         <span class="cv-description">
 
@@ -363,7 +263,8 @@
 
     <div class="cv-item">
 
-        <span class="cv-label">Web &amp; Documents</span>
+        <span class="cv-label"
+          data-lang="about.skills.web"></span>
 
         <span class="cv-description">
 
@@ -379,29 +280,25 @@
 
 <section class="about-section">
 
-    <h2>Languages</h2>
+    <h2 data-lang="about.languages.title"></h2>
 
     <div class="cv-item">
 
-        <span class="cv-label">Greek</span>
+        <span class="cv-label"
+            data-lang="about.languages.greek"></span>:
 
-        <span class="cv-description">
-
-            Native speaker
-
-        </span>
+        <span class="cv-description"
+            data-lang="about.languages.greek_level"></span>
 
     </div>
 
     <div class="cv-item">
 
-        <span class="cv-label">English</span>
+        <span class="cv-label"
+            data-lang="about.languages.english"></span>:
 
-        <span class="cv-description">
-
-            Fluent (Michigan ECPE Certificate of Proficiency)
-
-        </span>
+        <span class="cv-description"
+            data-lang="about.languages.english_level"></span>
 
     </div>
 
@@ -410,52 +307,20 @@
 
 <section class="personal-note">
 
-    <h2>Acknowledgements</h2>
+    <h2 data-lang="about.acknowledgements.title"></h2>
 
-    <p>
-
-        I am grateful to God for the opportunities I have been given to study,
-        teach, and conduct research. I hope that my work contributes,
-        however modestly, to the pursuit of truth, to the service of others,
-        and ultimately to the glory of God.
-        <br>
-        I am equally thankful to my teachers, mentors, collaborators, friends, 
-        and family, whose encouragement and guidance have shaped both my academic 
-        journey and my personal life.
-
-    </p>
-
-    <!-- <blockquote>
-
-        "Whatever you do, do all to the glory of God."
-
-        <br>
-
-        <strong>— 1 Corinthians 10:31</strong>
-
-    </blockquote> -->
+    <p data-lang="about.acknowledgements.p1"></p>
 
     <blockquote>
+        
+        <span data-lang="about.acknowledgements.quote"></span>
 
-        "The acquisition of knowledge is a noble pursuit, but wisdom is found in 
-        directing it toward the good." 
-        
-        <br>
-        
-        <strong>— St. Basil the Great </strong>
+        <strong data-lang="about.acknowledgements.author"></strong>
 
     </blockquote>
 
-    <!-- <blockquote>
-        "Knowledge without humility becomes the mother of pride." 
-        
-        <br>
-        
-        <strong>— St. John Chrysostom </strong>
-    </blockquote> -->
-
-
-    Δόξα τῷ Θεῷ πάντων ἕνεκεν — Glory to God for all things.
+    <p class="closing"
+       data-lang="about.acknowledgements.closing"></p>
 
 </section>
 
@@ -499,6 +364,9 @@
     </div>
 
 </footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 
 </body>
 

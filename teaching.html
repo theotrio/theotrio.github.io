@@ -27,19 +27,29 @@
 
         <ul class="nav-links">
 
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" data-lang="nav.home"></a></li>
 
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" data-lang="nav.about"></a></li>
 
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="publications.html" data-lang="nav.publications"></a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" data-lang="nav.projects"></a></li>
 
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" data-lang="nav.teaching"></a></li>
 
-            <li><a href="DrTriommatis.pdf" target="_blank">CV</a></li>
+            <li><a href="DrTriommatis.pdf" target="_blank" data-lang="nav.cv"></a></li>
 
         </ul>
+
+        <div class="language-switch">
+
+            <a href="#" id="lang-en">English</a>
+
+            <span>|</span>
+
+            <a href="#" id="lang-el">Ελληνικά</a>
+
+        </div>
 
     </nav>
 
@@ -50,7 +60,7 @@
 
 <section class="publications">
 
-<h2>Tutor at the University of Liverpool 2020 - 2023 </h2>
+<h2 data-lang="teaching.liverpool_title"> </h2>
 <ul>
     <li> 2020-2023: Maths and Statistics for Data Science and AI - 91 hours </li>
     <li> 2020-2023: Complexity of Algorithms - 48 hours </li>
@@ -99,6 +109,9 @@
     </div>
 
 </footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 
 </body>
 

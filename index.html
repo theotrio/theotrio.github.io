@@ -27,19 +27,29 @@
 
         <ul class="nav-links">
 
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" data-lang="nav.home"></a></li>
 
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html" data-lang="nav.about"></a></li>
 
-            <li><a href="publications.html">Publications</a></li>
+            <li><a href="publications.html" data-lang="nav.publications"></a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="projects.html" data-lang="nav.projects"></a></li>
 
-            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" data-lang="nav.teaching"></a></li>
 
-            <li><a href="DrTriommatis.pdf" target="_blank">CV</a></li>
+            <li><a href="DrTriommatis.pdf" target="_blank" data-lang="nav.cv"></a></li>
 
         </ul>
+
+        <div class="language-switch">
+
+            <a href="#" id="lang-en">English</a>
+
+            <span>|</span>
+
+            <a href="#" id="lang-el">Ελληνικά</a>
+
+        </div>
 
     </nav>
 
@@ -50,184 +60,179 @@
 
     <section class="hero">
 
-        <img
-            src="images/profile.png"
-            alt="Theofilos Triommatis"
-            class="profile-image">
+    <img
+        src="images/profile.png"
+        alt="Theofilos Triommatis"
+        class="profile-image">
 
-        <div class="hero-text">
+    <div class="hero-text">
 
-            <h1>Theofilos Triommatis</h1>
+        <h1 data-lang="home.hero.name"></h1>
 
-            <p class="position">
-                Postdoctoral Researcher
+        <p class="position" data-lang="home.hero.position"></p>
+
+        <p class="institution" data-lang="home.hero.institution"></p>
+
+        <div class="contact">
+
+            <p>
+                <strong data-lang="home.hero.email"></strong>
+                ttriommatis (<span data-lang="home.hero.mail_at"></span>) tuc 
+                (<span data-lang="home.hero.mail_dot"></span>) gr
             </p>
 
-            <p class="institution">
-                Technical University of Crete
-            </p>
+            <p data-lang="home.hero.lab"></p>
 
-            <div class="contact">
+            <p data-lang="home.hero.address"></p>
 
-                <p>
-                    <strong>Email:</strong>
-                    ttriommatis (at) tuc (dot) gr
-                </p>
+            <p data-lang="home.hero.address_code"></p>
 
-                <p>
-                    Dynamic Systems and Simulation Laboratory
-                </p>
-
-                <p>
-                    Technical University of Crete
-                </p>
-
-                <p>
-                    Chania 73100, Greece
-                </p>
-
-                <p>
-                    Tel. +30 28210 37289
-                </p>
-
-            </div>
-
-            <!-- <p>
-
-                Welcome to my personal webpage!
-
-                I am a postdoctoral researcher in the
-                <a href="http://www.dssl.tuc.gr/" target="_blank">
-                    Dynamic Systems and Simulation Laboratory
-                </a>
-                at the
-                <a href="https://www.tuc.gr/en/home" target="_blank">
-                    Technical University of Crete
-                </a>.
-
-                My research lies at the intersection of <strong>algorithm design</strong>, 
-                <strong>optimization</strong>, and <strong>decision making</strong>. I develop efficient 
-                algorithms that help autonomous systems make better decisions, while studying the 
-                theoretical limits of solving complex optimization problems.
-
-            </p> -->
+            <p data-lang="home.hero.tel"></p>
 
         </div>
+
+    </div>
 
     </section>
 
     <section>
-        <h1>Welcome to my personal webpage!</h1>
-        <p> 
-            I am a postdoctoral researcher in the
-                <a href="http://www.dssl.tuc.gr/" target="_blank">
-                    Dynamic Systems and Simulation Laboratory
-                </a>
-                at the
-                <a href="https://www.tuc.gr/en/home" target="_blank">
-                    Technical University of Crete
-                </a>.
 
-                My research lies at the intersection of <strong>algorithm design</strong>, 
-                <strong>optimization</strong>, and <strong>decision making</strong>. I develop efficient 
-                algorithms that help autonomous systems make better decisions, while studying the 
-                theoretical limits of solving complex optimization problems.
-                I enjoy bridging mathematical theory with practical applications, designing algorithms
-                that are not only provably efficient but also useful in real-world settings.
-        </p>
+        <h1 data-lang="home.welcome.title"></h1>
+
+        <p>  
+            <span data-lang="home.welcome.text1"></span>
+
+            <a href="http://www.dssl.tuc.gr/" target="_blank">
+                <span data-lang="home.hero.lab"> </span>
+            </a>
+
+            <span data-lang="home.welcome.text2"></span>
+
+            <a href="https://www.tuc.gr/en/home" target="_blank">
+                <span data-lang="home.hero.institution"></span>.
+            </a>
+
+            <span data-lang="home.welcome.text3"></span>
+        </p>  
     </section>
 
+    <section>
 
-    <section> 
-        <h2>Current Research</h2> 
-        <p> 
-            My current research investigates decision-making mechanisms for optimization problems arising in 
-            autonomous systems in logistics. I study how optimization algorithms can be used to identify optimal 
-            or near-optimal decisions for unmanned vehicles operating in dynamic environments. 
-        </p> 
+        <h2 data-lang="home.current_research.title"></h2>
 
-        <p> 
-            As part of my current project, I work on scheduling and routing algorithms for logistics operations. 
-            My previous research focused on passive localisation, where I developed and analysed geometric 
-            algorithms for locating vehicles using passive sensors. 
-        </p> 
-    </section> 
-    
-    <section> 
-        <h2>Research Themes</h2> 
-        <ul> 
-            <li> 
-                <strong>Optimization Algorithms.</strong> Designing exact, approximation and heuristic 
-                algorithms for challenging optimization problems. 
-            </li> 
-            <li> 
-                <strong>Computational Complexity.</strong> 
-                Understanding the computational limits of optimization problems and identifying when 
-                efficient algorithms are possible. 
-            </li> 
-            <li> 
-                <strong>Decision Making.</strong> 
-                Developing optimization models and mixed-integer linear programming (MILP) formulations 
-                that support autonomous decision making. 
-            </li> 
-            <li> 
-                <strong>Autonomous Systems.</strong> 
-                Studying how local decisions influence the global behaviour of fleets of autonomous 
-                vehicles through mathematical modelling and simulation. 
-            </li> 
-            <li> 
-                <strong>Algorithm Engineering.</strong> 
-                Bridging theoretical guarantees with practical implementations for real-world applications 
-                in transportation and logistics. 
-            </li> 
-        </ul> 
-    </section> 
-    
-    <section> 
-        <h2>Why This Research?</h2> <p> 
-            Many real-world optimization problems are computationally difficult, making exact solutions impractical 
-            for large instances. My research explores how approximation algorithms, mathematical optimization, 
-            and efficient algorithm design can produce solutions that are both theoretically sound and practically 
-            useful. 
-        </p> 
-            
-        <p> 
-            I am particularly interested in understanding how algorithmic decisions affect 
-            the behaviour of autonomous systems. By combining optimization, simulation, and complexity theory, 
-            I aim to design decision-making methods whose observed behaviour closely matches their 
-            intended objectives. 
-        </p> 
-    </section> 
-    
-    <section> 
-        <h2>Education</h2> 
-        <p> 
-            <strong>Ph.D. in Computer Science</strong><br> 
-            University of Liverpool (2019–2024) 
-        </p> 
-        <p> 
-            Thesis: 
-            <a href="https://livrepository.liverpool.ac.uk/3184893/" target="_blank">
-                    <em>A Study of a Geometric Framework in Passive Localisation</em> 
+        <p data-lang="home.current_research.p1"></p>
+
+        <p data-lang="home.current_research.p2"></p>
+
+    </section>
+
+    <section>
+
+        <h2 data-lang="home.themes.title"></h2>
+
+        <ul>
+
+            <li>
+                <strong data-lang="home.themes.optimization_title"></strong>
+                <span data-lang="home.themes.optimization"></span>
+            </li>
+
+            <li>
+                <strong data-lang="home.themes.complexity_title"></strong>
+                <span data-lang="home.themes.complexity"></span>
+            </li>
+
+            <li>
+                <strong data-lang="home.themes.decision_title"></strong>
+                <span data-lang="home.themes.decision"></span>
+            </li>
+
+            <li>
+                <strong data-lang="home.themes.autonomous_title"></strong>
+                <span data-lang="home.themes.autonomous"></span>
+            </li>
+
+            <li>
+                <strong data-lang="home.themes.engineering_title"></strong>
+                <span data-lang="home.themes.engineering"></span>
+            </li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2 data-lang="home.motivation.title"></h2>
+
+        <p data-lang="home.motivation.p1"></p>
+
+        <p data-lang="home.motivation.p2"></p>
+
+    </section>
+
+    <section>
+
+        <h2 data-lang="home.education.title"></h2>
+
+        <p>
+
+            <strong data-lang="home.education.phd"></strong><br>
+
+            <span data-lang="home.education.phd_place"></span>
+
+        </p>
+
+        <p>
+
+            <span data-lang="home.education.thesis_label"></span>
+
+            <a
+                href="https://livrepository.liverpool.ac.uk/3184893/"
+                target="_blank">
+
+                <em data-lang="home.education.thesis"></em>
+
             </a>
-        </p> 
-        <p> <strong>Diploma in Applied Mathematical and Physical Sciences</strong><br> 
-            National Technical University of Athens 
-        </p> 
-    </section> 
-    
-    <section> 
-        <h2>Selected Topics</h2> 
-        <ul> 
-            <li>Approximation Algorithms</li>
-            <li>Parameterized Complexity</li> 
-            <li>Optimization Algorithms</li> 
-            <li>Computational Geometry</li> 
-            <li>Decision Making</li> 
-            <li>Mixed-Integer Linear Programming (MILP)</li> 
-            <li>Scheduling and Routing</li> <li>Autonomous Vehicles</li> 
-            <li>Simulation and Emergent Behaviour</li> 
-        </ul> 
+
+        </p>
+
+        <p>
+
+            <strong data-lang="home.education.diploma"></strong><br>
+
+            <span data-lang="home.education.diploma_place"></span>
+
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2 data-lang="home.topics.title"></h2>
+
+        <ul>
+
+            <li data-lang="home.topics.approximation"></li>
+
+            <li data-lang="home.topics.parameterized"></li>
+
+            <li data-lang="home.topics.optimization"></li>
+
+            <li data-lang="home.topics.geometry"></li>
+
+            <li data-lang="home.topics.decision"></li>
+
+            <li data-lang="home.topics.milp"></li>
+
+            <li data-lang="home.topics.scheduling"></li>
+
+            <li data-lang="home.topics.autonomous"></li>
+
+            <li data-lang="home.topics.simulation"></li>
+
+        </ul>
+
     </section>
 
 </main>
@@ -270,6 +275,9 @@
     </div>
 
 </footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
 
 </body>
 
