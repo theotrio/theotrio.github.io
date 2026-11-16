@@ -20,17 +20,11 @@ const translations = {
 
                 name: "Theofilos Triommatis",
 
-                position: "Postdoctoral Researcher",
+                position: "Part-time Lecturer",
 
-                institution: "Technical University of Crete",
+                institution: "National Technical University of Athens",
 
-                lab: "Dynamic Systems and Simulation Laboratory",
-
-                address: "Technical University of Crete Campus",
-
-                address_code: "Chania 73100, Greece",
-
-                tel: "Tel. +30 28210 37289",
+                school: "School of Electrical and Computer Engineering",
 
                 email: "Email",
 
@@ -44,10 +38,8 @@ const translations = {
 
                 title: "Welcome to my personal webpage!",
 
-                text1:
-                    "I am a postdoctoral researcher in the", 
-                    
-                text2: " at the ",  
+                teaching:
+                    "Since September 2026, I have been a part-time lecturer at the National Technical University of Athens, where I teach Foundations in Computer Science.",
                 
                 text3:  "My research lies at the intersection of algorithm design, optimization, and decision making. I develop efficient algorithms that help autonomous systems make better decisions while studying the theoretical limits of solving complex optimization problems. I enjoy bridging mathematical theory with practical applications, designing algorithms that are not only provably efficient but also useful in real-world settings."
 
@@ -55,13 +47,13 @@ const translations = {
 
             current_research: {
 
-                title: "Current Research",
+                title: "Research",
 
                 p1:
-                    "My current research investigates decision-making mechanisms for optimization problems arising in autonomous systems in logistics. I study how optimization algorithms can be used to identify optimal or near-optimal decisions for unmanned vehicles operating in dynamic environments.",
+                    "My research interests include decision making for autonomous systems in logistics. I study how optimization algorithms can help unmanned vehicles make optimal or near-optimal decisions in dynamic environments.",
 
                 p2:
-                    "As part of my current project, I work on scheduling and routing algorithms for logistics operations. My previous research focused on passive localisation, where I developed and analysed geometric algorithms for locating vehicles using passive sensors."
+                    "As a postdoctoral researcher at the Technical University of Crete, I worked on scheduling and routing algorithms for logistics operations as part of the Horizon Europe TRACE project. During my PhD, I developed and analysed geometric algorithms for locating vehicles using passive sensors."
 
             },
 
@@ -129,11 +121,13 @@ const translations = {
 
             topics: {
 
-                title: "Selected Topics",
+                title: "Research Interests",
 
                 approximation: "Approximation Algorithms",
 
-                parameterized: "Parameterized Complexity",
+                complexity: "Computational Complexity",
+
+                parameterized: "Parameterised Complexity",
 
                 optimization: "Optimization Algorithms",
 
@@ -145,7 +139,7 @@ const translations = {
 
                 scheduling: "Scheduling and Routing",
 
-                autonomous: "Autonomous Vehicles",
+                autonomous: "Autonomous Systems and Vehicles",
 
                 simulation: "Simulation and Emergent Behaviour"
 
@@ -174,9 +168,15 @@ const translations = {
 
                 tuc_title: "Technical University of Crete",
 
-                tuc_desc:
-                    "Postdoctoral Researcher, School of Production Engineering and Management"
+                tuc_date: "Nov 2023 – Jul 2026",
 
+                tuc_desc:
+                    "Postdoctoral Researcher, School of Production Engineering and Management.",
+
+                lecturer_date: "Sep 2026 – Present",
+
+                lecturer_desc:
+                    "Part-time Lecturer, School of Electrical and Computer Engineering. Acquisition of Academic Teaching Experience at NTUA (MIS 6057431)."
             },
             mathematics: {
 
@@ -334,11 +334,11 @@ const translations = {
                 lab: "Dynamic Systems and Simulation Laboratory (DSSL)", 
                 text2: ", ", 
                 inst: "Technical University of Crete", 
-                text3: " working on the Horizon Europe Innovation Action ", 
+                text3: " worked on the Horizon Europe Innovation Action ", 
                 text4: 
                     "(Grant Agreement No. 101104278). " +
-                    "My research focuses on optimization methods for logistics, with emphasis on optimal " +
-                    "scheduling and routing. As Task Leader for Platform Development Modules, I coordinate the development  " +
+                    "My research was on optimization methods for logistics, with emphasis on optimal " +
+                    "scheduling and routing. As Task Leader for Platform Development Modules, I coordinated the development  " +
                     "and integration of optimization services and lead the collaboration of the project's technical " +
                     "partners in this area. "
             },
@@ -377,17 +377,11 @@ const translations = {
 
                 name: "Θεόφιλος Τριομμάτης",
 
-                position: "Μεταδιδακτορικός Ερευνητής",
+                position: "Διδάσκων μερικής απασχόλησης",
 
-                institution: "Πολυτεχνείο Κρήτης",
+                institution: "Εθνικό Μετσόβιο Πολυτεχνείο",
 
-                lab: "Εργαστήριο Δυναμικών Συστημάτων και Προσομοίωσης",
-
-                address: "Πανεπιστημιούπολη Πολυτεχνείου Κρήτης",
-
-                address_code: "Χανιά 73100, Ελλάδα",
-
-                tel: "Τηλ. +30 28210 37289",
+                school: "Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών",
 
                 email: "Ηλ. Ταχυδρομείο",
 
@@ -401,11 +395,8 @@ const translations = {
 
                 title: "Καλώς ήρθατε στην προσωπική μου ιστοσελίδα!",
 
-                text1:
-                    "Είμαι μεταδιδακτορικός ερευνητής στο", 
-                
-                text2: 
-                    "του", 
+                teaching:
+                    "Από τον Σεπτέμβριο του 2026 διδάσκω με μερική απασχόληση στο Εθνικό Μετσόβιο Πολυτεχνείο, όπου έχω αναλάβει το μάθημα «Θεμελιώδη Θέματα Επιστήμης Υπολογιστών».",
                 
                 text3: 
                     "Η έρευνά μου βρίσκεται στη διασταύρωση του σχεδιασμού αλγορίθμων, της βελτιστοποίησης και της λήψης αποφάσεων. Αναπτύσσω αποδοτικούς αλγορίθμους που βοηθούν αυτόνομα συστήματα να λαμβάνουν καλύτερες αποφάσεις, ενώ παράλληλα μελετώ τα θεωρητικά όρια επίλυσης σύνθετων προβλημάτων βελτιστοποίησης. Με ενδιαφέρει να γεφυρώνω τη μαθηματική θεωρία με πρακτικές εφαρμογές, σχεδιάζοντας αλγορίθμους που είναι τόσο θεωρητικά τεκμηριωμένοι όσο και χρήσιμοι στην πράξη."
@@ -414,13 +405,13 @@ const translations = {
 
             current_research: {
 
-                title: "Τρέχουσα Έρευνα",
+                title: "Έρευνα",
 
                 p1:
-                    "Η τρέχουσα έρευνά μου εξετάζει μηχανισμούς λήψης αποφάσεων για προβλήματα βελτιστοποίησης που προκύπτουν σε αυτόνομα συστήματα εφοδιαστικής αλυσίδας. Μελετώ πώς αλγόριθμοι βελτιστοποίησης μπορούν να χρησιμοποιηθούν για τον προσδιορισμό βέλτιστων ή σχεδόν βέλτιστων αποφάσεων για μη επανδρωμένα οχήματα που λειτουργούν σε δυναμικά περιβάλλοντα.",
+                    "Με ενδιαφέρει η λήψη αποφάσεων σε αυτόνομα συστήματα εφοδιαστικής. Μελετώ πώς οι αλγόριθμοι βελτιστοποίησης μπορούν να βοηθήσουν μη επανδρωμένα οχήματα να λαμβάνουν βέλτιστες ή σχεδόν βέλτιστες αποφάσεις σε δυναμικά περιβάλλοντα.",
 
                 p2:
-                    "Στο πλαίσιο του τρέχοντος έργου μου εργάζομαι πάνω σε αλγορίθμους προγραμματισμού και δρομολόγησης για λειτουργίες logistics. Η προηγούμενη έρευνά μου επικεντρώθηκε στην παθητική εντόπιση θέσης, όπου ανέπτυξα και ανέλυσα γεωμετρικούς αλγορίθμους για τον εντοπισμό οχημάτων με χρήση παθητικών αισθητήρων."
+                    "Ως μεταδιδακτορικός ερευνητής στο Πολυτεχνείο Κρήτης, εργάστηκα σε αλγορίθμους χρονοπρογραμματισμού και δρομολόγησης για εφαρμογές εφοδιαστικής στο πλαίσιο του έργου TRACE του προγράμματος Horizon Europe. Στο διδακτορικό μου ανέπτυξα και ανέλυσα γεωμετρικούς αλγορίθμους για τον εντοπισμό της θέσης οχημάτων με παθητικούς αισθητήρες."
 
             },
 
@@ -488,9 +479,11 @@ const translations = {
 
             topics: {
 
-                title: "Ενδεικτικά Θέματα",
+                title: "Ερευνητικά Ενδιαφέροντα",
 
                 approximation: "Προσεγγιστικοί Αλγόριθμοι",
+
+                complexity: "Υπολογιστική Πολυπλοκότητα",
 
                 parameterized: "Παραμετροποιημένη Πολυπλοκότητα",
 
@@ -504,7 +497,7 @@ const translations = {
 
                 scheduling: "Χρονοπρογραμματισμός και Δρομολόγηση",
 
-                autonomous: "Αυτόνομα Οχήματα",
+                autonomous: "Αυτόνομα Συστήματα και Οχήματα",
 
                 simulation: "Προσομοίωση και Αναδυόμενη Συμπεριφορά"
 
@@ -536,8 +529,15 @@ const translations = {
                 tuc_title:
                     "Πολυτεχνείο Κρήτης",
 
+                tuc_date: "Νοέ 2023 – Ιούλ 2026",
+
                 tuc_desc:
-                    "Μεταδιδακτορικός Ερευνητής, Σχολή Μηχανικών Παραγωγής και Διοίκησης"
+                    "Μεταδιδακτορικός ερευνητής, Σχολή Μηχανικών Παραγωγής και Διοίκησης.",
+
+                lecturer_date: "Σεπ 2026 – σήμερα",
+
+                lecturer_desc:
+                    "Διδάσκων μερικής απασχόλησης, Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών. Απόκτηση Ακαδημαϊκής Διδακτικής Εμπειρίας στο ΕΜΠ (ΟΠΣ 6057431)."
 
             },
             mathematics: {
@@ -702,9 +702,9 @@ const translations = {
                 text3: ", συμμετέχοντας στο έργο καινοτομίας του προγράμματος Horizon Europe, ", 
                 text4: 
                     "(Grant Agreement No. 101104278). " +
-                    "Η έρευνά μου επικεντρώνεται στην ανάπτυξη μεθόδων βέλτιστων αποφάσεων σε μεταφορές / εφοδιασμό (logistics), " +
+                    "Η έρευνά μου είχε επικεντρωθεί στην ανάπτυξη μεθόδων βέλτιστων αποφάσεων σε μεταφορές / εφοδιασμό (logistics), " +
                     "με έμφαση στα προβλήματα δρομολόγησης και προγραμματισμού. Στο πλαίσιο του έργου, " +
-                    "έχω τον ρόλο του Υπεύθυνου Εργασίας (Task Leader) για τις Ενότητες Ανάπτυξης της Πλατφόρμας, συντονίζοντας " +
+                    "είχα τον ρόλο του Υπεύθυνου Εργασίας (Task Leader) για τις Ενότητες Ανάπτυξης της Πλατφόρμας, συντονίζοντας " +
                     "την ανάπτυξη και την υλοποίηση των υπηρεσιών λήψης βέλτιστων αποφάσεων, καθώς και τη συνεργασία των τεχνικών εταίρων " +
                     "του έργου στον συγκεκριμένο τομέα."
             },
