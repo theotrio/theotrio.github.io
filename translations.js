@@ -20,7 +20,7 @@ const translations = {
 
                 name: "Theofilos Triommatis",
 
-                position: "Part-time Lecturer",
+                position: "Adjunct Lecturer",
 
                 institution: "National Technical University of Athens",
 
@@ -39,7 +39,7 @@ const translations = {
                 title: "Welcome to my personal webpage!",
 
                 teaching:
-                    "Since September 2026, I have been a part-time lecturer at the National Technical University of Athens, where I teach Foundations in Computer Science.",
+                    "Since September 2026, I have been an adjunct lecturer at the National Technical University of Athens, where I teach Foundations in Computer Science.",
                 
                 text3:  "My research lies at the intersection of algorithm design, optimization, and decision making. I develop efficient algorithms that help autonomous systems make better decisions while studying the theoretical limits of solving complex optimization problems. I enjoy bridging mathematical theory with practical applications, designing algorithms that are not only provably efficient but also useful in real-world settings."
 
@@ -377,7 +377,7 @@ const translations = {
 
                 name: "Θεόφιλος Τριομμάτης",
 
-                position: "Διδάσκων μερικής απασχόλησης",
+                position: "Επικουρικός Διδάσκων",
 
                 institution: "Εθνικό Μετσόβιο Πολυτεχνείο",
 
@@ -396,7 +396,7 @@ const translations = {
                 title: "Καλώς ήρθατε στην προσωπική μου ιστοσελίδα!",
 
                 teaching:
-                    "Από τον Σεπτέμβριο του 2026 διδάσκω με μερική απασχόληση στο Εθνικό Μετσόβιο Πολυτεχνείο, όπου έχω αναλάβει το μάθημα «Θεμελιώδη Θέματα Επιστήμης Υπολογιστών».",
+                    "Από τον Σεπτέμβριο του 2026 διδάσκω επικουρικά στο Εθνικό Μετσόβιο Πολυτεχνείο, όπου έχω αναλάβει το μάθημα «Θεμελιώδη Θέματα Επιστήμης Υπολογιστών».",
                 
                 text3: 
                     "Η έρευνά μου βρίσκεται στη διασταύρωση του σχεδιασμού αλγορίθμων, της βελτιστοποίησης και της λήψης αποφάσεων. Αναπτύσσω αποδοτικούς αλγορίθμους που βοηθούν αυτόνομα συστήματα να λαμβάνουν καλύτερες αποφάσεις, ενώ παράλληλα μελετώ τα θεωρητικά όρια επίλυσης σύνθετων προβλημάτων βελτιστοποίησης. Με ενδιαφέρει να γεφυρώνω τη μαθηματική θεωρία με πρακτικές εφαρμογές, σχεδιάζοντας αλγορίθμους που είναι τόσο θεωρητικά τεκμηριωμένοι όσο και χρήσιμοι στην πράξη."
