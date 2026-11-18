@@ -176,7 +176,7 @@ const translations = {
                 lecturer_date: "Sep 2026 – Present",
 
                 lecturer_desc:
-                    "Part-time Lecturer, School of Electrical and Computer Engineering. Acquisition of Academic Teaching Experience at NTUA."
+                    "Adjunct Lecturer, School of Electrical and Computer Engineering. Acquisition of Academic Teaching Experience at NTUA."
             },
             mathematics: {
 
@@ -537,7 +537,7 @@ const translations = {
                 lecturer_date: "Σεπ 2026 – σήμερα",
 
                 lecturer_desc:
-                    "Διδάσκων μερικής απασχόλησης, Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών. Απόκτηση Ακαδημαϊκής Διδακτικής Εμπειρίας στο ΕΜΠ."
+                    "Επικουρικός διδάσκων, Σχολή Ηλεκτρολόγων Μηχανικών και Μηχανικών Υπολογιστών. Απόκτηση Ακαδημαϊκής Διδακτικής Εμπειρίας στο ΕΜΠ."
 
             },
             mathematics: {
